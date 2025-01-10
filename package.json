@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.83.1"
+    "sass": "^1.83.1",
+    "swiper": "^11.2.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
