@@ -1,0 +1,8 @@
+.become-more {
+  height: 700px;
+}
+.become-more .swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+}

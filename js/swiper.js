@@ -1,14 +1,10 @@
   const swiper = new Swiper('.swiper', {
-    loop: true, // Бесконечный цикл
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
     autoplay: {
-      delay: 3000, // Автопрокрутка каждые 3 секунды
+      delay: 5000,
     },
   })

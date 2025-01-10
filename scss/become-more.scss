@@ -1,0 +1,24 @@
+.become-more {
+  height: 700px;
+  .swiper {
+    .swiper-pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4px;
+      .swiper-pagination-bullet {
+        background: #fff;
+        width: 12px;
+        height: 12px;
+        opacity: 1;
+        transition: all 0.3s;
+      }
+      .swiper-pagination-bullet-active {
+        background: $pink-color;
+        width: 17px;
+        height: 17px;
+        opacity: 1;
+      }
+    }
+  }
+}
