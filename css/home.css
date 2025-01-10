@@ -1,12 +1,12 @@
-.home-page {
+.home {
   background: url(../images/female-working-out.png);
   background-size: cover;
   height: 691px;
 }
-.home-page span {
+.home span {
   color: #FFDAE7;
 }
-.home-page:after {
+.home:after {
   content: "";
   position: absolute;
   top: 0;
@@ -16,6 +16,6 @@
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
-.home-page .home-page__wave {
+.home .home__wave {
   bottom: -10px;
 }

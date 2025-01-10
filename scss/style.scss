@@ -43,6 +43,7 @@ body {
     border: 2px solid $pink-color;
     color: $pink-color;
     transition: all 0.2s;
+    font-weight: 700;
     &:hover {
       border-color: $pink-hover;
     }

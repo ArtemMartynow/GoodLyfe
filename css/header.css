@@ -18,4 +18,5 @@ header .header__links .header__link {
 header .header__btn {
   width: 166px;
   height: 50px;
+  font-weight: 400;
 }
