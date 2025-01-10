@@ -131,10 +131,26 @@ header .header__btn {
   width: 12px;
   height: 12px;
   opacity: 1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .become-more .swiper .swiper-pagination .swiper-pagination-bullet-active {
   background: #E43071;
   width: 17px;
   height: 17px;
   opacity: 1;
+}
+
+.premium-facilities {
+  padding: 224px 79px 108px 155px;
+}
+.premium-facilities .premium-facilities__images {
+  height: 435px;
+  width: 572px;
+}
+.premium-facilities .premium-facilities__content {
+  width: 480px;
+}
+.premium-facilities .premium-facilities__content h4 {
+  color: #E43071;
 }
