@@ -6,23 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <h4>Good<span>lyfe</span></h4>
-    <div class="header__links">
-      <a href="" class="header__link">Classess</a>
-      <a href="" class="header__link">Timetable</a>
-      <a href="" class="header__link">Clubs</a>
-      <a href="" class="header__link">Nutrition</a>
-      <a href="" class="header__link">Free Trial</a>
-      <a href="" class="header__link">
-        Search 
-        <img src="./images/icons/search-icon.png" alt="search">
-      </a>
+  <header class="flex w-full items-center justify-between px-10">
+    <h4 class="text-white font-extrabold">Good<span>lyfe</span></h4>
+    <div class="header__content flex">
+      <div class="header__links text-white flex">
+        <a href="#" class="header__link">Classess</a>
+        <a href="#" class="header__link">Timetable</a>
+        <a href="#" class="header__link">Clubs</a>
+        <a href="#" class="header__link">Nutrition</a>
+        <a href="#" class="header__link">Free Trial</a>
+        <a href="#" class="header__link">
+          Search 
+          <img 
+            src="./images/icons/search-icon.png" 
+            alt="search"
+            class="pl-1.5"  
+          >
+        </a>
+      </div>
+      <button class="header__btn btn-transparent">Login</button>
     </div>
-    <button class="btn">Login</button>
   </header>
 </body>
 </html>
