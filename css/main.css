@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+body h1 {
+  font-size: 70px;
+}
+body h2 {
+  font-size: 60px;
+}
+body h3 {
+  font-size: 48px;
+}
+body h4 {
+  font-size: 40px;
+}
+body h5 {
+  font-size: 38px;
+}
+body p, body a {
+  font-size: 16px;
+}
+body .btn {
+  width: 237px;
+  height: 68px;
+  background: #E43071;
+  border-radius: 200px;
+  border: 2px solid #E43071;
+  color: #F7F7FC;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+body .btn:hover {
+  border-color: #BE285E;
+}
+body .btn-transparent {
+  width: 237px;
+  height: 68px;
+  background: #fff;
+  border-radius: 200px;
+  border: 2px solid #E43071;
+  color: #E43071;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+body .btn-transparent:hover {
+  border-color: #BE285E;
+}
+
+header {
+  background: #E43071;
+  height: 101px;
+}
+header h4 span {
+  color: #FFC1D8;
+}
+header .header__links .header__link {
+  margin-left: 38px;
+  margin-right: 38px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .header__btn {
+  width: 166px;
+  height: 50px;
+}
+
+.home-page {
+  background: url(../images/female-working-out.png);
+  background-size: cover;
+  height: 691px;
+}
+.home-page span {
+  color: #FFDAE7;
+}
+.home-page:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.home-page .home-page__wave {
+  bottom: -30px;
+}

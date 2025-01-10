@@ -1,5 +1,3 @@
-@import 'variables';
-
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +21,18 @@ body {
   }
   p, a {
     font-size: 16px;
+  }
+  .btn {
+    width: 237px;
+    height: 68px;
+    background: $pink-color;
+    border-radius: 200px;
+    border: 2px solid $pink-color;
+    color: #F7F7FC;
+    transition: all 0.2s;
+    &:hover {
+      border-color: $pink-hover;
+    }
   }
   .btn-transparent {
     width: 237px;
