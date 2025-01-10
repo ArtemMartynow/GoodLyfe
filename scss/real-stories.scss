@@ -1,0 +1,70 @@
+.real-stories {
+  background: linear-gradient(to bottom, #FFFFFF, #F4E3E9);
+  height: 900px;
+  position: relative;
+  .real-stories__content {
+    position: absolute;
+    top: 126px;
+    left: 254px;
+    h3 {
+      line-height: 57px;
+      color: #424242;
+    }
+  }
+  .real-stories__cards {
+    .real-stories__card {
+      background: #fff;
+      color: #424242;
+      position: absolute;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+      h5 {
+        color: $pink-color;
+        font-weight: 600;
+      }
+      .real-stories__subtitle {
+        font-size: 18px;
+        display: flex;
+        img {
+          width: 25px;
+          height: 20px;
+          margin-right: 8px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+      .real-stories__user {
+        .real-stories__name {
+          font-size: 18px;
+          font-weight: 600;
+          color: #424242;
+        }
+        span {
+          color: #969BAB;
+        }
+      }
+    }
+    .first-card {
+      left: 351px;
+      top: 306px;
+      padding: 35px 32px 38px 27px;
+    }
+    .second-card {
+      right: 258px;
+      top: 175px;
+      padding: 46px 32px 38px 27px;
+      .real-stories__subtitle {
+        p {
+          width: 360px;
+        }
+      }
+    }
+    .third-card {
+      right: 356px;
+      bottom: 81px;
+      padding: 31px 31px 32px 27px;
+    }
+  }
+}

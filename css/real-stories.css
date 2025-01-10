@@ -1,0 +1,12 @@
+.real-stories {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F4E3E9));
+  background: linear-gradient(to bottom, #FFFFFF, #F4E3E9);
+  color: #424242;
+}
+.real-stories .real-stories__content h3 {
+  line-height: 57px;
+}
+.real-stories .real-stories__cards .real-stories__card {
+  padding: 30px;
+  background: #fff;
+}

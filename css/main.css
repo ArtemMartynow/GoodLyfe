@@ -154,3 +154,71 @@ header .header__btn {
 .premium-facilities .premium-facilities__content h4 {
   color: #E43071;
 }
+
+.real-stories {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F4E3E9));
+  background: linear-gradient(to bottom, #FFFFFF, #F4E3E9);
+  height: 900px;
+  position: relative;
+}
+.real-stories .real-stories__content {
+  position: absolute;
+  top: 126px;
+  left: 254px;
+}
+.real-stories .real-stories__content h3 {
+  line-height: 57px;
+  color: #424242;
+}
+.real-stories .real-stories__cards .real-stories__card {
+  background: #fff;
+  color: #424242;
+  position: absolute;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.real-stories .real-stories__cards .real-stories__card h5 {
+  color: #E43071;
+  font-weight: 600;
+}
+.real-stories .real-stories__cards .real-stories__card .real-stories__subtitle {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.real-stories .real-stories__cards .real-stories__card .real-stories__subtitle img {
+  width: 25px;
+  height: 20px;
+  margin-right: 8px;
+}
+.real-stories .real-stories__cards .real-stories__card .real-stories__subtitle p {
+  font-size: 18px;
+}
+.real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #424242;
+}
+.real-stories .real-stories__cards .real-stories__card .real-stories__user span {
+  color: #969BAB;
+}
+.real-stories .real-stories__cards .first-card {
+  left: 351px;
+  top: 306px;
+  padding: 35px 32px 38px 27px;
+}
+.real-stories .real-stories__cards .second-card {
+  right: 258px;
+  top: 175px;
+  padding: 46px 32px 38px 27px;
+}
+.real-stories .real-stories__cards .second-card .real-stories__subtitle p {
+  width: 360px;
+}
+.real-stories .real-stories__cards .third-card {
+  right: 356px;
+  bottom: 81px;
+  padding: 31px 31px 32px 27px;
+}
