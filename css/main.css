@@ -35,6 +35,7 @@ body .btn {
 }
 body .btn:hover {
   border-color: #BE285E;
+  background: #BE285E;
 }
 body .btn-transparent {
   width: 237px;
