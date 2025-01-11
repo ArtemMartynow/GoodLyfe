@@ -1,0 +1,9 @@
+footer .footer__legal {
+  color: #D9DBE1;
+}
+footer .footer__legal .footer__legal-links a {
+  font-size: 14px;
+}
+footer .footer__legal .footer__legal-links span {
+  margin: 0 8px;
+}
