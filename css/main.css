@@ -222,3 +222,17 @@ header .header__btn {
   bottom: 81px;
   padding: 31px 31px 32px 27px;
 }
+
+.our-app {
+  background: #E43071;
+  height: 491px;
+}
+.our-app .our-app__content {
+  width: 489px;
+}
+.our-app .our-app__content span {
+  color: #F4ACC6;
+}
+.our-app .our-app__phones {
+  height: 514px;
+}
