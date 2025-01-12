@@ -41,6 +41,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   .then(response => response.json())
   .then(data => {
     if (data.success) {
+      window.location.href = "pages/thankyou.html"
       return
     } else {
       alert("Error: " + data.message)
