@@ -22,3 +22,29 @@ document.getElementById('phone').addEventListener('input', function () {
 
   this.value = formattedValue
 })
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+  event.preventDefault()
+  let phone = document.getElementById('phone').value.trim()
+  let email = document.getElementById('email').value.trim()
+  console.log('Phone input:', phone)
+  if (!phone.replace(/\s+/g, '').match(/^\+1\(\d{3}\)\d{3}-\d{4}$/)) {
+    alert("Phone number must be in the format +1(XXX)XXX-XXXX")
+    return
+  }
+  if (!email.match(/^\S+@\S+\.\S+$/)) {
+    alert("Please enter a valid email address")
+    return
+  }
+  const formData = new FormData(this)
+  fetch('http://localhost:3000/php/contact.php', { method: 'POST', body: formData })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      return
+    } else {
+      alert("Error: " + data.message)
+    }
+  })
+  .catch(error => { alert("Error: " + error.message) })
+})

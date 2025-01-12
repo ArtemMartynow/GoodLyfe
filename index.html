@@ -210,7 +210,7 @@
   </div>
   <div class="contact-form flex flex-col items-center">
     <h3 class="font-extrabold">Contact Us</h3>
-    <form class="flex flex-col items-center">
+    <form class="flex flex-col items-center" id="contactForm" action="http://localhost:3000/php/contact.php">
       <div class="contact-form__group">
         <label>Phone</label>
         <input 
@@ -218,6 +218,7 @@
           required 
           placeholder="+1 (XXX) XXX-XXXX"
           id="phone"
+          name="tel"
         >
       </div>
       <div class="contact-form__group">
@@ -226,6 +227,8 @@
           type="email"
           required 
           placeholder="yourname@example.com"
+          id="email"
+          name="email"
         >
       </div>
       <button class="btn-transparent">Send</button>
