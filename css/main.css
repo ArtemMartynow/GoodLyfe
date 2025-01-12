@@ -110,9 +110,22 @@ header .header__btn {
 .new-body .new-body__content h4 {
   color: #E43071;
 }
+.new-body .new-body__content p {
+  color: #424242;
+}
 
 .become-more {
   height: 700px;
+}
+.become-more .swiper:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 .become-more .swiper .swiper-pagination {
   display: -webkit-box;
@@ -150,6 +163,7 @@ header .header__btn {
 }
 .premium-facilities .premium-facilities__content {
   width: 480px;
+  color: #424242;
 }
 .premium-facilities .premium-facilities__content h4 {
   color: #E43071;
@@ -165,10 +179,10 @@ header .header__btn {
   position: absolute;
   top: 126px;
   left: 254px;
+  color: #424242;
 }
 .real-stories .real-stories__content h3 {
   line-height: 57px;
-  color: #424242;
 }
 .real-stories .real-stories__cards .real-stories__card {
   background: #fff;
@@ -235,6 +249,7 @@ header .header__btn {
 }
 .our-app .our-app__phones {
   height: 514px;
+  bottom: 18px;
 }
 
 .social {
