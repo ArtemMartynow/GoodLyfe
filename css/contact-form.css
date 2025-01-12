@@ -1,0 +1,35 @@
+.contact-form {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EDEDED));
+  background: linear-gradient(to bottom, #FFFFFF, #EDEDED);
+}
+.contact-form form {
+  background: #000;
+}
+.contact-form form .contact-form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+.contact-form form .contact-form__group label {
+  position: absolute;
+  top: 0;
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #000;
+}
+.contact-form form .contact-form__group input {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #000;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}

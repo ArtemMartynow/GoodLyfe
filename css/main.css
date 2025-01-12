@@ -352,3 +352,37 @@ footer .footer__legal .footer__legal-links a {
 footer .footer__legal .footer__legal-links span {
   margin: 0 8px;
 }
+
+.contact-form {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EDEDED));
+  background: linear-gradient(to bottom, #FFFFFF, #EDEDED);
+  padding: 100px 0;
+}
+.contact-form h3 {
+  color: #E43071;
+  margin-bottom: 30px;
+}
+.contact-form form {
+  width: 390px;
+  background: #E43071;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+.contact-form form .contact-form__group {
+  margin-bottom: 20px;
+}
+.contact-form form .contact-form__group label {
+  font-size: 18px;
+  color: #fff;
+  margin-right: 5px;
+}
+.contact-form form .contact-form__group input {
+  border-radius: 10px;
+  height: 45px;
+  padding: 10px;
+  width: 250px;
+  outline: none;
+}
+.contact-form form button {
+  margin-top: 20px;
+}

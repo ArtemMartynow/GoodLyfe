@@ -208,11 +208,11 @@
       <img src="./images/mobiles-phones.png" alt="">
     </div>
   </div>
-  <div class="contact-form">
-    <h3>Contact Us</h3>
-    <form>
-      <div class="contact-form__group-inp">
-        <label for="phone">Phone</label>
+  <div class="contact-form flex flex-col items-center">
+    <h3 class="font-extrabold">Contact Us</h3>
+    <form class="flex flex-col items-center">
+      <div class="contact-form__group">
+        <label>Phone</label>
         <input 
           type="tel" 
           required 
@@ -220,8 +220,8 @@
           name="phone"  
         >
       </div>
-      <div class="contact-form__group-inp">
-        <label for="email">Email</label>
+      <div class="contact-form__group">
+        <label>Email</label>
         <input 
           type="email"
           required 
@@ -229,7 +229,7 @@
           name="email"  
         >
       </div>
-      <button class="btn">Send</button>
+      <button class="btn-transparent">Send</button>
     </form>
   </div>
   <div class="social flex flex-col items-center justify-center">
