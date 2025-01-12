@@ -1,0 +1,17 @@
+.thank-you {
+  height: 100vh;
+  font-family: "Poppins", serif;
+  h1 {
+    color: $pink-color;
+  }
+  a {
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    &:hover {
+      background: $pink-color;
+      color: #fff;
+    }
+  }
+}
