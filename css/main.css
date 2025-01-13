@@ -109,6 +109,9 @@ header .header__btn {
   background: url(../images/female-working-out.png);
   background-size: cover;
   height: 691px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .home span {
   color: #FFDAE7;
@@ -127,6 +130,24 @@ header .header__btn {
   bottom: -10px;
 }
 
+@media (max-width: 320px) {
+  .home {
+    height: 424px;
+    background-position-x: 62%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-top: 103px;
+  }
+  .home h1 {
+    font-size: 32px;
+  }
+  .home .btn {
+    width: 208px;
+    height: 56px;
+    margin-top: 15px;
+  }
+}
 .new-body {
   padding: 94px 140px 122px;
 }
