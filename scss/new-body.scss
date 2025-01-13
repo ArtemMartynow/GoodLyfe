@@ -1,5 +1,6 @@
 .new-body {
   padding: 94px 140px 122px;
+  display: flex;
   .new-body__images {
     height: 503px;  
     width: 440px;
@@ -11,6 +12,31 @@
     }
     p {
       color: #424242;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .new-body {
+    display: block;
+    padding: 30px 16px;
+    .new-body__images {
+      width: 262px;
+      height: 313px;
+      .new-body__images_first {
+        width: 176px;
+        height: 248px;
+      }
+      .new-body__images_second {
+        width: 146px;
+        height: 218px;
+      }
+    }
+    .new-body__content {
+      width: 100%;
+      .btn-transparent {
+        width: 100%;
+      }
     }
   }
 }

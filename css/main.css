@@ -150,6 +150,9 @@ header .header__btn {
 }
 .new-body {
   padding: 94px 140px 122px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .new-body .new-body__images {
   height: 503px;
@@ -165,6 +168,30 @@ header .header__btn {
   color: #424242;
 }
 
+@media (max-width: 320px) {
+  .new-body {
+    display: block;
+    padding: 30px 16px;
+  }
+  .new-body .new-body__images {
+    width: 262px;
+    height: 313px;
+  }
+  .new-body .new-body__images .new-body__images_first {
+    width: 176px;
+    height: 248px;
+  }
+  .new-body .new-body__images .new-body__images_second {
+    width: 146px;
+    height: 218px;
+  }
+  .new-body .new-body__content {
+    width: 100%;
+  }
+  .new-body .new-body__content .btn-transparent {
+    width: 100%;
+  }
+}
 .become-more {
   height: 700px;
 }
