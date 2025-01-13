@@ -1,6 +1,7 @@
 header {
   background: #E43071;
   height: 101px;
+  padding: 0 38px;
 }
 header h4 span {
   color: #FFC1D8;
@@ -19,4 +20,14 @@ header .header__btn {
   width: 166px;
   height: 50px;
   font-weight: 400;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 0 24px 0 16px;
+    height: 64px;
+  }
+  header h4 {
+    font-size: 22px;
+  }
 }

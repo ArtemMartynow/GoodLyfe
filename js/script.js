@@ -37,7 +37,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     return
   }
   const formData = new FormData(this)
-  fetch('http://localhost:3000/php/contact.php', { method: 'POST', body: formData })
+  
+  fetch('http://localhost:3000/php/contact.php', { 
+    method: 'POST', 
+    body: formData 
+  })
   .then(response => response.json())
   .then(data => {
     if (data.success) {

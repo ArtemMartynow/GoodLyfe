@@ -55,9 +55,13 @@ body .btn-transparent:hover {
 header {
   background: #E43071;
   height: 101px;
+  padding: 0 38px;
 }
 header h4 span {
   color: #FFC1D8;
+}
+header .header__content_response {
+  display: none;
 }
 header .header__links .header__link {
   margin-left: 38px;
@@ -75,6 +79,32 @@ header .header__btn {
   font-weight: 400;
 }
 
+@media (max-width: 320px) {
+  header {
+    padding: 0 24px 0 16px;
+    height: 64px;
+  }
+  header h4 {
+    font-size: 22px;
+  }
+  header .header__content {
+    display: none;
+  }
+  header .header__content_response {
+    display: block;
+    height: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .header__content_response img {
+    margin-left: 25px;
+    cursor: pointer;
+  }
+}
 .home {
   background: url(../images/female-working-out.png);
   background-size: cover;
