@@ -32,3 +32,38 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .become-more {
+    height: 443px;
+    .swiper {
+      .swiper-wrapper {
+        .swiper-slide {
+          img {
+            height: 443px;
+          }
+        }
+      }
+    }
+    .become-more__content {
+      h2 {
+        font-size: 42px;
+        width: 252px;
+        line-height: 48px;
+      }
+      p {
+        width: 257px;
+        margin-top: 10px;
+        padding: 0;
+        br {
+          display: none;
+        }
+      }
+      .btn {
+        width: 287px;
+        height: 56px;
+        margin-top: 15px;
+      }
+    }
+  }
+}

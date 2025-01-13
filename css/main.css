@@ -190,6 +190,7 @@ header .header__btn {
   }
   .new-body .new-body__content .btn-transparent {
     width: 100%;
+    height: 60px;
   }
 }
 .become-more {
@@ -232,6 +233,32 @@ header .header__btn {
   opacity: 1;
 }
 
+@media (max-width: 320px) {
+  .become-more {
+    height: 443px;
+  }
+  .become-more .swiper .swiper-wrapper .swiper-slide img {
+    height: 443px;
+  }
+  .become-more .become-more__content h2 {
+    font-size: 42px;
+    width: 252px;
+    line-height: 48px;
+  }
+  .become-more .become-more__content p {
+    width: 257px;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .become-more .become-more__content p br {
+    display: none;
+  }
+  .become-more .become-more__content .btn {
+    width: 287px;
+    height: 56px;
+    margin-top: 15px;
+  }
+}
 .premium-facilities {
   padding: 224px 79px 129px 155px;
 }
