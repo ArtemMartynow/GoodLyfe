@@ -12,3 +12,36 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .premium-facilities {
+    padding: 74px 16px 28px;
+    flex-direction: column-reverse;
+    width: 100%;
+    .premium-facilities__images {
+      width: 100%;
+      height: 198px;
+      .premium-facilities__images_first {
+        width: 191px;
+        height: 128px;
+      }
+      .premium-facilities__images_second {
+        width: 202px;
+        height: 135px;
+      }
+    }
+    .premium-facilities__content {
+      margin-top: 16px;
+      h4 {
+        line-height: 48px;
+      }
+      p {
+        line-height: 32px;
+      }
+      .btn-transparent {
+        width: 100%;
+        height: 63px;
+      }
+    }
+  }
+}

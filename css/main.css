@@ -274,6 +274,41 @@ header .header__btn {
   color: #E43071;
 }
 
+@media (max-width: 320px) {
+  .premium-facilities {
+    padding: 74px 16px 28px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .premium-facilities .premium-facilities__images {
+    width: 100%;
+    height: 198px;
+  }
+  .premium-facilities .premium-facilities__images .premium-facilities__images_first {
+    width: 191px;
+    height: 128px;
+  }
+  .premium-facilities .premium-facilities__images .premium-facilities__images_second {
+    width: 202px;
+    height: 135px;
+  }
+  .premium-facilities .premium-facilities__content {
+    margin-top: 16px;
+  }
+  .premium-facilities .premium-facilities__content h4 {
+    line-height: 48px;
+  }
+  .premium-facilities .premium-facilities__content p {
+    line-height: 32px;
+  }
+  .premium-facilities .premium-facilities__content .btn-transparent {
+    width: 100%;
+    height: 63px;
+  }
+}
 .real-stories {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F4E3E9));
   background: linear-gradient(to bottom, #FFFFFF, #F4E3E9);
