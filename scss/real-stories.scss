@@ -18,7 +18,6 @@
       position: absolute;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-
       h5 {
         color: $pink-color;
         font-weight: 600;
@@ -65,6 +64,98 @@
       right: 356px;
       bottom: 81px;
       padding: 31px 31px 32px 27px;
+    }
+  }
+  .swiper {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .real-stories {
+    height: 505px;
+    padding: 48px 0px 38px;
+    .real-stories__content {
+      position: relative;
+      top: 0;
+      left: 31px;
+      h3 {
+        font-size: 26px;
+        line-height: 31px;
+      }
+      p {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 6px;
+        margin-bottom: 25px;
+      }
+    }
+    .real-stories__cards {
+      display: none;
+    }
+    .swiper-second {
+      display: block;
+      height: 373px;
+      .swiper-wrapper {
+        .swiper-slide {
+            .real-stories__card {
+            width: 243px;
+            height: 310px;
+            border-radius: 7px;
+            background: #fff;
+            color: #424242;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            padding: 25px 16px;
+            h5 {
+              color: $pink-color;
+              font-weight: 600;
+              font-size: 26px;
+            }
+            .real-stories__subtitle {
+              font-size: 18px;
+              display: flex;
+              margin-top: 15px;
+              img {
+                width: 20px;
+                height: 15px;
+                margin-right: 8px;
+              }
+              p {
+                font-size: 12px;
+                line-height: 20px;
+                width: 170px;
+              }
+            }
+            .real-stories__user {
+              position: fixed;
+              top: 243px;
+              img {
+                width: 40px;
+                height: 40px;
+              }
+              .real-stories__fullname {
+                width: 95px;
+                display: flex;
+                flex-direction: column;
+                .real-stories__name {
+                  font-size: 12px;
+                  font-weight: 600;
+                  color: #424242;
+                }
+                span {
+                  color: #969BAB;
+                  font-size: 10px;
+                }
+              }
+            }
+          }
+          .first-card {
+            .real-stories__user {
+              left: 50px;
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -297,6 +297,7 @@ header .header__btn {
   }
   .premium-facilities .premium-facilities__content {
     margin-top: 16px;
+    width: auto;
   }
   .premium-facilities .premium-facilities__content h4 {
     line-height: 48px;
@@ -376,7 +377,100 @@ header .header__btn {
   bottom: 81px;
   padding: 31px 31px 32px 27px;
 }
+.real-stories .swiper {
+  display: none;
+}
 
+@media (max-width: 420px) {
+  .real-stories {
+    height: 505px;
+    padding: 48px 0px 38px;
+  }
+  .real-stories .real-stories__content {
+    position: relative;
+    top: 0;
+    left: 31px;
+  }
+  .real-stories .real-stories__content h3 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .real-stories .real-stories__content p {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-bottom: 25px;
+  }
+  .real-stories .real-stories__cards {
+    display: none;
+  }
+  .real-stories .swiper-second {
+    display: block;
+    height: 373px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card {
+    width: 243px;
+    height: 310px;
+    border-radius: 7px;
+    background: #fff;
+    color: #424242;
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 25px 16px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card h5 {
+    color: #E43071;
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle {
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle img {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 170px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user {
+    position: fixed;
+    top: 243px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user img {
+    width: 40px;
+    height: 40px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname {
+    width: 95px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname .real-stories__name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #424242;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname span {
+    color: #969BAB;
+    font-size: 10px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .first-card .real-stories__user {
+    left: 50px;
+  }
+}
 .our-app {
   background: #E43071;
   height: 491px;
