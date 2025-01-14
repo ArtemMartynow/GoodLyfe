@@ -22,3 +22,28 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .social {
+    height: 260px;
+    .social__content {
+      width: 275px;
+      a {
+        height: 75px;
+        width: 75px;
+        .social__facebook {
+          width: 10px;
+          height: 20px;
+        }
+        .social__yt {
+          width: 17px;
+          height: 20px;
+        }
+        .social__instagram {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+}

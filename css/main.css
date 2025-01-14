@@ -546,6 +546,30 @@ header .header__btn {
      object-fit: contain;
 }
 
+@media (max-width: 320px) {
+  .social {
+    height: 260px;
+  }
+  .social .social__content {
+    width: 275px;
+  }
+  .social .social__content a {
+    height: 75px;
+    width: 75px;
+  }
+  .social .social__content a .social__facebook {
+    width: 10px;
+    height: 20px;
+  }
+  .social .social__content a .social__yt {
+    width: 17px;
+    height: 20px;
+  }
+  .social .social__content a .social__instagram {
+    width: 20px;
+    height: 20px;
+  }
+}
 footer {
   background: #0B0D17;
 }
