@@ -30,3 +30,12 @@
     }
   }
 }
+
+@media (max-width: 320px) {
+  .contact-form {
+    form {
+      width: 285px;
+      padding: 35px 17px;
+    }
+  }
+}

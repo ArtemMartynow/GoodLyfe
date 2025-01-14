@@ -664,6 +664,12 @@ footer .footer__legal .footer__legal-links span {
   margin-top: 20px;
 }
 
+@media (max-width: 320px) {
+  .contact-form form {
+    width: 285px;
+    padding: 35px 17px;
+  }
+}
 .thank-you {
   height: 100vh;
   font-family: "Poppins", serif;
