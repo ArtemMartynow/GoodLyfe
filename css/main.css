@@ -385,6 +385,7 @@ header .header__btn {
   .real-stories {
     height: 505px;
     padding: 48px 0px 38px;
+    overflow: hidden;
   }
   .real-stories .real-stories__content {
     position: relative;
@@ -654,6 +655,48 @@ footer .footer__legal .footer__legal-links span {
   margin: 0 8px;
 }
 
+@media (max-width: 420px) {
+  footer {
+    padding: 40px 30px;
+  }
+  footer .footer__content {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  footer .footer__content .footer__info p {
+    font-size: 13px;
+  }
+  footer .footer__content .footer__links {
+    margin-top: 43px;
+    margin-bottom: 308px;
+  }
+  footer .footer__content .footer__links ul li a p {
+    font-size: 14px;
+  }
+  footer .footer__content .footer__guides {
+    display: none;
+  }
+  footer .footer__legal {
+    padding: 0;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 35px;
+  }
+  footer .footer__legal .footer__legal-links {
+    margin-bottom: 16px;
+    font-size: 12px;
+  }
+  footer .footer__legal .footer__legal-links a {
+    font-size: 12px;
+  }
+  footer .footer__legal .footer__legal-links .separator {
+    display: none;
+  }
+}
 .contact-form {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EDEDED));
   background: linear-gradient(to bottom, #FFFFFF, #EDEDED);

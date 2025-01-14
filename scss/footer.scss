@@ -82,3 +82,51 @@ footer {
     }
   }
 }
+
+@media (max-width: 420px) {
+  footer {
+    padding: 40px 30px;
+    .footer__content {
+      display: block;
+      margin: 0;
+      padding: 0;
+      .footer__info {
+        p {
+          font-size: 13px;
+        }
+      }
+      .footer__links {
+        margin-top: 43px;
+        margin-bottom: 308px;
+        ul {
+          li {
+            a {
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+      .footer__guides {
+        display: none;
+      }
+    }
+    .footer__legal {
+      padding: 0;
+      text-align: center;
+      flex-direction: column-reverse;
+      margin-top: 35px;
+      .footer__legal-links {
+        margin-bottom: 16px;
+        font-size: 12px;
+        a {
+          font-size: 12px;
+        }
+        .separator {
+          display: none;
+        }
+      }
+    }
+  }
+}
