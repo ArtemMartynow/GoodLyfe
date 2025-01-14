@@ -377,7 +377,7 @@ header .header__btn {
   bottom: 81px;
   padding: 31px 31px 32px 27px;
 }
-.real-stories .swiper {
+.real-stories .swiper-second {
   display: none;
 }
 
@@ -474,6 +474,7 @@ header .header__btn {
 .our-app {
   background: #E43071;
   height: 491px;
+  padding-left: 238px;
 }
 .our-app .our-app__content {
   width: 489px;
@@ -485,7 +486,34 @@ header .header__btn {
   height: 514px;
   bottom: 18px;
 }
+.our-app .our-app__phones img {
+  width: 568px;
+  height: 532px;
+}
 
+@media (max-width: 320px) {
+  .our-app {
+    height: 970px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 43px;
+  }
+  .our-app .our-app__content {
+    margin: 0;
+  }
+  .our-app .our-app__content p {
+    margin-bottom: 25px;
+    margin-top: 0;
+    line-height: 33px;
+  }
+  .our-app .our-app__phones {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 455px;
+  }
+}
 .social {
   height: 319px;
   background: #EDEDED;

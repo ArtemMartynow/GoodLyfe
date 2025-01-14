@@ -1,6 +1,7 @@
 .our-app {
   background: $pink-color;
   height: 491px;
+  padding-left: 238px;
   .our-app__content {
     width: 489px;
     span {
@@ -10,5 +11,33 @@
   .our-app__phones {
    height: 514px;
    bottom: 18px;
+   img {
+    width: 568px;
+    height: 532px;
+   }
+  }
+}
+
+@media (max-width: 320px) {
+  .our-app {
+    height: 970px;
+    display: block;
+    padding-left: 15px;
+    padding-top: 43px;
+    .our-app__content {
+      margin: 0;
+      p {
+        margin-bottom: 25px;
+        margin-top: 0;
+        line-height: 33px;
+      }
+    }
+    .our-app__phones {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 455px;
+    }
   }
 }
