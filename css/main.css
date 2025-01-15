@@ -79,7 +79,17 @@ header .header__btn {
   font-weight: 400;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 2000px) {
+  header .header__content .header__links .header__link {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1320px) {
+  header .header__content .header__links .header__link {
+    margin: 0 10px;
+  }
+}
+@media (max-width: 1000px) {
   header {
     padding: 0 24px 0 16px;
     height: 64px;
