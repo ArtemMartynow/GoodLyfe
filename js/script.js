@@ -38,13 +38,14 @@ document.getElementById('contactForm').addEventListener('submit', function(event
   }
   const formData = new FormData(this)
   
-  fetch('http://localhost:3000/php/contact.php', { 
+  fetch('http://test/', { 
     method: 'POST', 
     body: formData 
   })
   .then(response => response.json())
   .then(data => {
     if (data.success) {
+      localStorage.setItem('formResponse', JSON.stringify(data))
       window.location.href = "pages/thankyou.html"
       return
     } else {
