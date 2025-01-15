@@ -36,11 +36,14 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     alert("Please enter a valid email address")
     return
   }
-  const formData = new FormData(this)
+  const formData = {
+    email: email,
+    phone: phone
+  }
   
   fetch('http://test/', { 
     method: 'POST', 
-    body: formData 
+    body: JSON.stringify(formData)  
   })
   .then(response => response.json())
   .then(data => {
