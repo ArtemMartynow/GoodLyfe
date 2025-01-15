@@ -755,3 +755,9 @@ footer .footer__legal .footer__legal-links span {
   background: #E43071;
   color: #fff;
 }
+
+@media (max-width: 320px) {
+  .thank-you h1 {
+    font-size: 45px;
+  }
+}
