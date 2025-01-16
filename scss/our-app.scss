@@ -18,6 +18,46 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .our-app {
+    padding-left: 23%;
+    .our-app__phones {
+      right: 15%;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .our-app {
+    height: 576px;
+    .our-app__content {
+      width: 528px;
+      h4 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+      span {
+        font-size: 18px;
+      }
+      .our-app__download {
+        width: 343px;
+        img {
+          width: 160px;
+        }
+      }
+    }
+    .our-app__phones {
+      bottom: 124px;
+      img {
+        width: 681px;
+        height: 638px;
+      }
+    }
+  }
+}
+
 @media (max-width: 320px) {
   .our-app {
     height: 970px;

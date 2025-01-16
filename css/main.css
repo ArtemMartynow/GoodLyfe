@@ -890,6 +890,44 @@ header .header__btn {
   height: 532px;
 }
 
+@media (min-width: 2000px) {
+  .our-app {
+    padding-left: 23%;
+  }
+  .our-app .our-app__phones {
+    right: 15%;
+  }
+}
+@media (min-width: 1600px) {
+  .our-app {
+    height: 576px;
+  }
+  .our-app .our-app__content {
+    width: 528px;
+  }
+  .our-app .our-app__content h4 {
+    font-size: 50px;
+  }
+  .our-app .our-app__content p {
+    font-size: 20px;
+  }
+  .our-app .our-app__content span {
+    font-size: 18px;
+  }
+  .our-app .our-app__content .our-app__download {
+    width: 343px;
+  }
+  .our-app .our-app__content .our-app__download img {
+    width: 160px;
+  }
+  .our-app .our-app__phones {
+    bottom: 124px;
+  }
+  .our-app .our-app__phones img {
+    width: 681px;
+    height: 638px;
+  }
+}
 @media (max-width: 320px) {
   .our-app {
     height: 970px;
