@@ -32,6 +32,53 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .become-more {
+    .swiper {
+      .swiper-wrapper {
+        .swiper-slide {
+          img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    .become-more__content {
+      h2 {
+        font-size: 94px;
+      }
+      p {
+        font-size: 26px;
+      }
+      .btn {
+        width: 300px;
+        height: 90px;
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .become-more {
+    .become-more__content {
+      h2 {
+        font-size: 80px;
+      }
+      p {
+        font-size: 22px;
+      }
+      .btn {
+        width: 300px;
+        height: 90px;
+        font-size: 21px;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   .become-more {
     .become-more__content {

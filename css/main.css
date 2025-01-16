@@ -231,10 +231,10 @@ header .header__btn {
     width: 600px;
   }
   .new-body .new-body__content h4 {
-    font-size: 56px;
+    font-size: 70px;
   }
   .new-body .new-body__content p {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 1600px) {
@@ -246,6 +246,11 @@ header .header__btn {
   }
   .new-body .new-body__content p {
     font-size: 20px;
+  }
+  .new-body .new-body__content .btn-transparent {
+    width: 300px;
+    height: 90px;
+    font-size: 21px;
   }
 }
 @media (max-width: 1300px) {
@@ -328,6 +333,38 @@ header .header__btn {
   opacity: 1;
 }
 
+@media (min-width: 2000px) {
+  .become-more .swiper .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .become-more .become-more__content h2 {
+    font-size: 94px;
+  }
+  .become-more .become-more__content p {
+    font-size: 26px;
+  }
+  .become-more .become-more__content .btn {
+    width: 300px;
+    height: 90px;
+    font-size: 21px;
+  }
+}
+@media (min-width: 1600px) {
+  .become-more .become-more__content h2 {
+    font-size: 80px;
+  }
+  .become-more .become-more__content p {
+    font-size: 22px;
+  }
+  .become-more .become-more__content .btn {
+    width: 300px;
+    height: 90px;
+    font-size: 21px;
+  }
+}
 @media (max-width: 1024px) {
   .become-more .become-more__content h2 {
     font-size: 48px;
