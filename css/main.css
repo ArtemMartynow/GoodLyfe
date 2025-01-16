@@ -213,7 +213,58 @@ header .header__btn {
   color: #424242;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 2000px) {
+  .new-body {
+    padding: 94px 16% 122px;
+  }
+  .new-body .new-body__images {
+    width: 660px;
+    height: 754px;
+  }
+  .new-body .new-body__images .new-body__images_first {
+    width: 521px;
+  }
+  .new-body .new-body__images .new-body__images_second {
+    width: 361px;
+  }
+  .new-body .new-body__content {
+    width: 600px;
+  }
+  .new-body .new-body__content h4 {
+    font-size: 56px;
+  }
+  .new-body .new-body__content p {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1600px) {
+  .new-body {
+    padding: 94px 16% 122px;
+  }
+  .new-body .new-body__content h4 {
+    font-size: 50px;
+  }
+  .new-body .new-body__content p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1300px) {
+  .new-body {
+    padding: 94px 80px 122px;
+  }
+  .new-body .new-body__content {
+    width: 380px;
+  }
+}
+@media (max-width: 1024px) {
+  .new-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 630px) {
   .new-body {
     display: block;
     padding: 30px 16px;
@@ -221,6 +272,7 @@ header .header__btn {
   .new-body .new-body__images {
     width: 262px;
     height: 313px;
+    margin: 0 auto;
   }
   .new-body .new-body__images .new-body__images_first {
     width: 176px;
