@@ -23,7 +23,35 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 1600px) {
+  .social {
+    height: 335px;
+    padding-bottom: 100px;
+    h4 {
+      font-size: 70px;
+    }
+    .social__content {
+      width: 765px;
+      a {
+        height: 154px;
+        width: 154px;
+        .social__facebook {
+          width: 23px;
+        }
+        .social__yt {
+          width: 40px;
+          height: 43px;
+        }
+        .social__instagram {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
   .social {
     height: 260px;
     .social__content {
