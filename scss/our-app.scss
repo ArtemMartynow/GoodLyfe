@@ -1,7 +1,7 @@
 .our-app {
   background: $pink-color;
   height: 491px;
-  padding-left: 238px;
+  padding-left: 16%;
   .our-app__content {
     width: 489px;
     span {
@@ -11,6 +11,7 @@
   .our-app__phones {
    height: 514px;
    bottom: 18px;
+   right: 7%;
    img {
     width: 568px;
     height: 532px;
@@ -58,26 +59,93 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1380px) {
   .our-app {
-    height: 970px;
+    padding-left: 7%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .our-app {
+      height: 435px;
+    .our-app__content {
+      margin-top: 45px;
+      h4 {
+        font-size: 34px;
+      }
+      p {
+        width: 400px;
+        font-size: 14px;
+      }
+    }
+    .our-app__phones {
+      width: 462px;
+      bottom: -36px;
+      img {
+        width: 511px;
+        height: 479px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1015px) {
+  .our-app {
+    height: 830px;
+    padding-top: 43px;
+    padding-left: 0;
+    .our-app__content {
+      margin: 0 auto;
+      width: 400px;
+    }
+    .our-app__phones {
+      bottom: -35px;
+      right: calc(50% - 284px);
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .our-app {
+    height: 755px !important;
     display: block;
     padding-left: 15px;
-    padding-top: 43px;
     .our-app__content {
       margin: 0;
+      width: 75%;
       p {
         margin-bottom: 25px;
         margin-top: 0;
         line-height: 33px;
+        width: auto;
       }
     }
     .our-app__phones {
-      width: 100%;
+      width: 303px;
       position: absolute;
-      bottom: 0;
+      bottom: -40px;
       right: 0;
       height: 455px;
+    }
+  }
+}
+
+@media (max-width: 515px) {
+  .our-app {
+    .our-app__content {
+      width: 365px;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .our-app {
+    height: 917px !important;
+    .our-app__content {
+      width: 235px;
     }
   }
 }

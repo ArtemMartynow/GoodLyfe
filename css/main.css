@@ -873,7 +873,7 @@ header .header__btn {
 .our-app {
   background: #E43071;
   height: 491px;
-  padding-left: 238px;
+  padding-left: 16%;
 }
 .our-app .our-app__content {
   width: 489px;
@@ -884,6 +884,7 @@ header .header__btn {
 .our-app .our-app__phones {
   height: 514px;
   bottom: 18px;
+  right: 7%;
 }
 .our-app .our-app__phones img {
   width: 568px;
@@ -928,27 +929,87 @@ header .header__btn {
     height: 638px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 1380px) {
   .our-app {
-    height: 970px;
+    padding-left: 7%;
+  }
+}
+@media (max-width: 1240px) {
+  .our-app {
+    height: 435px;
+  }
+  .our-app .our-app__content {
+    margin-top: 45px;
+  }
+  .our-app .our-app__content h4 {
+    font-size: 34px;
+  }
+  .our-app .our-app__content p {
+    width: 400px;
+    font-size: 14px;
+  }
+  .our-app .our-app__phones {
+    width: 462px;
+    bottom: -36px;
+  }
+  .our-app .our-app__phones img {
+    width: 511px;
+    height: 479px;
+  }
+}
+@media (max-width: 1015px) {
+  .our-app {
+    height: 830px;
+    padding-top: 43px;
+    padding-left: 0;
+  }
+  .our-app .our-app__content {
+    margin: 0 auto;
+    width: 400px;
+  }
+  .our-app .our-app__phones {
+    bottom: -35px;
+    right: calc(50% - 284px);
+  }
+  .our-app .our-app__phones img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .our-app {
+    height: 755px !important;
     display: block;
     padding-left: 15px;
-    padding-top: 43px;
   }
   .our-app .our-app__content {
     margin: 0;
+    width: 75%;
   }
   .our-app .our-app__content p {
     margin-bottom: 25px;
     margin-top: 0;
     line-height: 33px;
+    width: auto;
   }
   .our-app .our-app__phones {
-    width: 100%;
+    width: 303px;
     position: absolute;
-    bottom: 0;
+    bottom: -40px;
     right: 0;
     height: 455px;
+  }
+}
+@media (max-width: 515px) {
+  .our-app .our-app__content {
+    width: 365px;
+  }
+}
+@media (max-width: 415px) {
+  .our-app {
+    height: 917px !important;
+  }
+  .our-app .our-app__content {
+    width: 235px;
   }
 }
 .social {
@@ -1167,7 +1228,42 @@ footer .footer__legal .footer__legal-links span {
   margin-top: 20px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 2000px) {
+  .contact-form form .contact-form__group label {
+    font-size: 25px !important;
+  }
+  .contact-form form .contact-form__group input {
+    font-size: 25px !important;
+    width: 83% !important;
+  }
+}
+@media (min-width: 1600px) {
+  .contact-form h3 {
+    font-size: 70px;
+  }
+  .contact-form form {
+    width: 600px;
+  }
+  .contact-form form .contact-form__group {
+    width: 516px;
+  }
+  .contact-form form .contact-form__group label {
+    font-size: 20px;
+  }
+  .contact-form form .contact-form__group input {
+    font-size: 20px;
+    width: 86%;
+  }
+  .contact-form form .contact-form__group #email {
+    margin-left: 8px;
+  }
+  .contact-form form .btn-transparent {
+    width: 300px;
+    height: 90px;
+    font-size: 21px;
+  }
+}
+@media (max-width: 450px) {
   .contact-form form {
     width: 285px;
     padding: 35px 17px;
