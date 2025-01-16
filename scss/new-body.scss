@@ -90,8 +90,9 @@
     .new-body__content {
       width: 100%;
       .btn-transparent {
-        width: 100%;
+        width: 287px;
         height: 60px;
+        margin-left: calc(50% - 144px);
       }
     }
   }

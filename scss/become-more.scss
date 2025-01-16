@@ -1,5 +1,4 @@
 .become-more {
-  height: 700px;
   .swiper {
     &:after {
       content: '';
@@ -33,7 +32,27 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
+  .become-more {
+    .become-more__content {
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .become-more {
+    .become-more__content {
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 630px) {
   .become-more {
     height: 443px;
     .swiper {
@@ -41,6 +60,7 @@
         .swiper-slide {
           img {
             height: 443px;
+            object-fit: cover;
           }
         }
       }

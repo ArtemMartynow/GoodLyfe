@@ -286,12 +286,10 @@ header .header__btn {
     width: 100%;
   }
   .new-body .new-body__content .btn-transparent {
-    width: 100%;
+    width: 287px;
     height: 60px;
+    margin-left: calc(50% - 144px);
   }
-}
-.become-more {
-  height: 700px;
 }
 .become-more .swiper:after {
   content: "";
@@ -330,12 +328,24 @@ header .header__btn {
   opacity: 1;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
+  .become-more .become-more__content h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 768px) {
+  .become-more .become-more__content h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 630px) {
   .become-more {
     height: 443px;
   }
   .become-more .swiper .swiper-wrapper .swiper-slide img {
     height: 443px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .become-more .become-more__content h2 {
     font-size: 42px;
