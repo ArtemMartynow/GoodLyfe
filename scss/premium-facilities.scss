@@ -1,5 +1,6 @@
 .premium-facilities {
   padding: 224px 79px 129px 155px;
+  justify-content: space-between;
   .premium-facilities__images {
     height: 435px;  
     width: 572px;
@@ -13,13 +14,113 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 2000px) {
+  .premium-facilities {
+    padding: 224px 17% 129px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .premium-facilities {
+    padding: 224px 13% 129px;
+    .premium-facilities__content {
+      width: 500px;
+      h4 {
+        font-size: 50px;
+      }
+      p {
+        font-size: 20px;
+      }
+      .btn-transparent {
+        width: 300px;
+        height: 90px;
+        font-size: 21px;
+      }
+    }
+    .premium-facilities__images {
+      height: 522px;
+      width: 686px;
+      .premium-facilities__images_first {
+        width: 506px;
+      }
+      .premium-facilities__images_second {
+        width: 533px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .premium-facilities {
+    padding: 224px 8% 129px;
+    .premium-facilities__content {
+      width: 390px;
+    }
+    .premium-facilities__images {
+      width: 514px;
+      height: 391px;
+      .premium-facilities__images_first {
+        width: 379px;
+      }
+      .premium-facilities__images_second {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1130px) {
+  .premium-facilities {
+    .premium-facilities__images {
+      width: 411px;
+      height: 312px;
+      .premium-facilities__images_first {
+        width: 303px;
+      }
+      .premium-facilities__images_second {
+        width: 320px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .premium-facilities {
+    flex-direction: column-reverse;
+    padding: 110px 0 30px;
+    .premium-facilities__images {
+      .premium-facilities__images_first {
+        width: 303px;
+      }
+      .premium-facilities__images_second {
+        width: 320px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .premium-facilities {
+    flex-direction: column-reverse;
+    padding: 110px 0 30px;
+    .premium-facilities__images {
+      .premium-facilities__images_first {
+        width: 303px;
+      }
+      .premium-facilities__images_second {
+        width: 320px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
   .premium-facilities {
     padding: 74px 16px 28px;
     flex-direction: column-reverse;
     width: 100%;
     .premium-facilities__images {
-      width: 100%;
+      width: 272px;
       height: 198px;
       .premium-facilities__images_first {
         width: 191px;
@@ -40,7 +141,7 @@
         line-height: 32px;
       }
       .btn-transparent {
-        width: 100%;
+        width: 287px;
         height: 63px;
       }
     }
