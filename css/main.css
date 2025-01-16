@@ -560,7 +560,7 @@ header .header__btn {
 .real-stories .real-stories__content {
   position: absolute;
   top: 126px;
-  left: 254px;
+  left: calc(50% - 454px);
   color: #424242;
 }
 .real-stories .real-stories__content h3 {
@@ -601,12 +601,12 @@ header .header__btn {
   color: #969BAB;
 }
 .real-stories .real-stories__cards .first-card {
-  left: 351px;
+  left: calc(50% - 361px);
   top: 306px;
   padding: 35px 32px 38px 27px;
 }
 .real-stories .real-stories__cards .second-card {
-  right: 258px;
+  right: calc(50% - 456px);
   top: 175px;
   padding: 46px 32px 38px 27px;
 }
@@ -614,7 +614,7 @@ header .header__btn {
   width: 360px;
 }
 .real-stories .real-stories__cards .third-card {
-  right: 356px;
+  right: calc(50% - 354px);
   bottom: 81px;
   padding: 31px 31px 32px 27px;
 }
@@ -622,6 +622,166 @@ header .header__btn {
   display: none;
 }
 
+@media (min-width: 2000px) {
+  .real-stories {
+    height: 1010px !important;
+  }
+  .real-stories .real-stories__content h3 {
+    font-size: 53px;
+  }
+  .real-stories .real-stories__content p {
+    font-size: 23px;
+  }
+  .real-stories .real-stories__cards .real-stories__card h5 {
+    font-size: 62px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__subtitle p {
+    font-size: 23px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user img {
+    width: 73px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname {
+    width: 153px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname span {
+    font-size: 21px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname .real-stories__name {
+    font-size: 23px;
+  }
+  .real-stories .real-stories__cards .first-card {
+    left: calc(50% - 361px);
+    top: 306px;
+    padding: 35px 32px 38px 27px;
+  }
+  .real-stories .real-stories__cards .second-card {
+    right: calc(50% - 456px);
+    top: 175px;
+    padding: 46px 32px 38px 27px;
+  }
+  .real-stories .real-stories__cards .second-card .real-stories__subtitle p {
+    width: 360px;
+  }
+  .real-stories .real-stories__cards .third-card {
+    right: calc(50% - 354px);
+    bottom: 81px;
+    padding: 31px 31px 32px 27px;
+  }
+}
+@media (min-width: 1600px) {
+  .real-stories {
+    height: 977px;
+  }
+  .real-stories .real-stories__cards .real-stories__card h5 {
+    font-size: 50px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__subtitle p {
+    font-size: 21px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname {
+    width: 153px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname span {
+    font-size: 18px;
+  }
+  .real-stories .real-stories__cards .real-stories__card .real-stories__user .real-stories__fullname .real-stories__name {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .real-stories {
+    height: 505px;
+    padding: 48px 0px 38px;
+    overflow: hidden;
+  }
+  .real-stories .real-stories__content {
+    position: relative;
+    top: 0;
+    left: calc(50% - 150px);
+  }
+  .real-stories .real-stories__content h3 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .real-stories .real-stories__content p {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-bottom: 25px;
+  }
+  .real-stories .real-stories__cards {
+    display: none;
+  }
+  .real-stories .swiper-second {
+    display: block;
+    height: 373px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card {
+    width: 243px;
+    height: 310px;
+    border-radius: 7px;
+    background: #fff;
+    color: #424242;
+    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 25px 16px;
+    margin: 0 auto;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card h5 {
+    color: #E43071;
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle {
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 15px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle img {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__subtitle p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 170px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user {
+    position: fixed;
+    top: 243px;
+    margin-left: 28px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user img {
+    width: 40px;
+    height: 40px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname {
+    width: 95px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname .real-stories__name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #424242;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname span {
+    color: #969BAB;
+    font-size: 10px;
+  }
+  .real-stories .swiper-second .swiper-wrapper .swiper-slide .first-card .real-stories__user {
+    left: calc(50% - 113px);
+  }
+}
 @media (max-width: 420px) {
   .real-stories {
     height: 505px;
@@ -708,9 +868,6 @@ header .header__btn {
   .real-stories .swiper-second .swiper-wrapper .swiper-slide .real-stories__card .real-stories__user .real-stories__fullname span {
     color: #969BAB;
     font-size: 10px;
-  }
-  .real-stories .swiper-second .swiper-wrapper .swiper-slide .first-card .real-stories__user {
-    left: 50px;
   }
 }
 .our-app {

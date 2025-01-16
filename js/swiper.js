@@ -10,7 +10,8 @@ const swiper = new Swiper('.swiper', {
 })
 
 const swiperSecond = new Swiper('.swiper-second', {
-  slidesPerView: 1.2,
+  slidesPerView: 1,
+  centeredSlides: true,
   spaceBetween: 26,
   loop: false,
   slidesPerGroup: 1,
